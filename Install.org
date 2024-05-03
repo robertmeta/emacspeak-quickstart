@@ -1,0 +1,135 @@
+* Install Emacspeak
+
+** How Emacspeak Works
+This is a vast simplification, just enough to help you debug issues and have a
+general understanding.
+
+Emacspeak has two major parts:
+  1. Elisp code that runs inside Emacs
+  2. A server process that runs does the Text-To-Speech (TTS)
+
+The Elisp code in emacs will launch and communicate with the server process over
+STDIN.
+
+Below you will find the steps to install Emacspeak with platform specific notes
+and warnings in each section. 
+
+** Prerequisites
+
+*** Emacs
+
+*** Git
+
+*** Make
+
+*** Bash Shell (or compatible)
+
+
+** Get Emacspeak
+ 1. Open Bash Terminal
+ 2. Switch to directory you want emacspeak to be in
+ 3. =git clone https://github.com/tvraman/emacspeak=
+
+** Build Emacspeak
+ 1. Switch to emacspeak directory
+ 2. =make config=
+ 3. =make=
+
+** Pick Server
+Now, you have multiple options for your TTS server.
+
+*** Linux
+  - dtk
+  - espeak
+  - outloud
+
+** MacOS
+  - espeak
+  - mac
+  - swiftmac
+
+** Windows
+  - espeak 
+  - sharpwin
+
+** Build Server
+
+*** dtk
+*** espeak
+*** mac
+*** outloud
+*** sharpwin
+*** swiftmac
+
+** Test Server
+ 1. Switch to the servers directory under emacspeak
+ 2. Run the server binary directly
+ 3. Send the following lines
+    - =q this thing on?=
+    - =d=
+
+** Configure Emacs
+
+** Test Emacs
+
+
+
+
+
+
+
+
+ 3. Follow system specific guidance below.
+
+*** Linux
+**** Debian
+***** 12.x
+ 1. Do the [[common][Common Steps]] above
+
+**** Ubuntu
+***** 22.04
+ 1. Do the [[Common Steps]] above
+
+***** 24.04
+ 1. Do the [[Common Steps]] above
+
+**** Fedora
+***** 40
+ 1. Do the [[Common Steps]] above
+
+***** 39
+****** Espeak
+ 1. Do the [[Common Steps]] above
+
+*** MacOS
+**** 14+
+***** Swiftmac Server
+ 1. Do the [[Common Steps]] above
+ 2. Install Swift 5.5+
+ 3. From emacspeak directory run:
+    1. =make clean=
+    2. =make=
+    3. =make swiftmac=
+
+*** Windows
+**** 10/11
+    - Install [[https://git-scm.com/download/win][Git]]
+      - During install, install Git Bash
+      - Check the box to put in path
+    - Install GNU Make
+      
+** What Next?
+So, it is running, now what?
+
+*** Join the mailing list:
+ - [[https://mail.emacspeak.net][List Website]]
+
+*** Read the manual:
+ - [[info:emacspeak][emacspeak info (in emacs)]]
+ - [[https://tvraman.github.io/emacspeak/manual/][online manual]]
+ - [[https://tvraman.github.io/emacspeak/manual/emacspeak.pdf][pdf version]]
+
+*** Other resources:
+ - [[https://emacspeak.blogspot.com/][Emacspeak Blog]]
+ - [[https://tvraman.github.io/emacspeak/tips.html][Tips and Tricks]] (if you skip others, read this)
+

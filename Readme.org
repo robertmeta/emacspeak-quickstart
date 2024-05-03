@@ -4,3 +4,5 @@ This is the temporary home of the Emacspeak Quickstart.org file.
 
 It will live here until we get the major sections done and then will contribute
 it to the main Emacspeak project. 
+
+- [[file:./Install.org][Install.org]]
