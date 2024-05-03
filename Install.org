@@ -15,42 +15,38 @@ Below you will find the steps to install Emacspeak with platform specific notes
 and warnings in each section. 
 
 ** Prerequisites
-
-*** Emacs
-
-*** Git
-
-*** Make
-
-*** Bash Shell (or compatible)
+    1. Emacs
+    2. Git
+    3. Make
+    4. Bash Shell (or compatible)
 
 
 ** Get Emacspeak
- 1. Open Bash Terminal
- 2. Switch to directory you want emacspeak to be in
- 3. =git clone https://github.com/tvraman/emacspeak=
+    1. Open Bash Terminal
+    2. Switch to directory you want emacspeak to be in
+    3. =git clone https://github.com/tvraman/emacspeak=
 
 ** Build Emacspeak
- 1. Switch to emacspeak directory
- 2. =make config=
- 3. =make=
+    1. Switch to emacspeak directory
+    2. =make config=
+    3. =make=
 
 ** Pick Server
 Now, you have multiple options for your TTS server.
 
 *** Linux
-  - dtk
-  - espeak
-  - outloud
+    1. dtk
+    2. espeak
+    3. outloud
 
 ** MacOS
-  - espeak
-  - mac
-  - swiftmac
+    1. espeak
+    2. mac
+    3. swiftmac
 
 ** Windows
-  - espeak 
-  - sharpwin
+    1. espeak 
+    2. sharpwin
 
 ** Build Server
 
@@ -62,9 +58,9 @@ Now, you have multiple options for your TTS server.
 *** swiftmac
 
 ** Test Server
- 1. Switch to the servers directory under emacspeak
- 2. Run the server binary directly
- 3. Send the following lines
+   1. Switch to the servers directory under emacspeak
+   2. Run the server binary directly
+   3. Send the following lines
     - =q this thing on?=
     - =d=
 
