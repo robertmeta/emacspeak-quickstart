@@ -13,8 +13,6 @@ No effort will be made to teach you how to use Emacspeak.
 - [[OS: Ubuntu 24.04 / Server: DTK]]
 - [[OS: Windows 11 / Server: Sharpwin]]
 
-
-
 * What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
 general understanding.
