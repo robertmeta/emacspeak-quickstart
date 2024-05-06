@@ -1,5 +1,7 @@
 #+TITLE:     Installing Emacspeak
 #+AUTHOR:    Robert Melton
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:nil toc:2 p:t
 
 A quickstart / install document for Emacspeak
 
