@@ -18,9 +18,13 @@ Emacspeak has two major parts:
 The Elisp code in emacs will launch and communicate with the server process over
 STDIN.
 
-* Installl
+* Install
 Each section is complete, meaning if you are using Linux Mint, you only have to
 look under the Linux Mint heading.
+
+:test:
+wtf
+:end:
 
 ** OS: Linux Mint / Server: eSpeak
 Looking for Contributor 
