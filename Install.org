@@ -29,6 +29,7 @@ Looking for Contributor
     a. go to: https://brew.sh/
     b. follow instructionts to install
 2. Install Emacs-Plus
+
    a. Open bash prompt
    b. brew tap d12frosted/emacs-plus
    c. brew install emacs-plus
