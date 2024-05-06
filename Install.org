@@ -1,6 +1,6 @@
 #+TITLE:     Install Emacspeak
 #+AUTHOR:    Robert Melton
-#+OPTIONS:   H:4
+#+OPTIONS:   H:1
 
 
 My document provides...
