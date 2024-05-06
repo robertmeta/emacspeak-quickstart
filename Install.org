@@ -1,9 +1,7 @@
 #+TITLE:     Installing Emacspeak
 #+AUTHOR:    Robert Melton
 #+LANGUAGE:  en
-#+OPTIONS:   H:4 num:nil toc:2 p:t
 #+TOC: headlines 2
-
 
 This guide's only intent is to get you from zero to functional emacspeak.
 
