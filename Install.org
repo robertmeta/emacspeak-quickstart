@@ -1,131 +1,75 @@
-* Install Emacspeak
+* Installing Emacspeak
+This guide's only intent is to get you from zero to functional emacspeak.
 
-** How Emacspeak Works
+No effort will be made to teach you how to use Emacspeak. 
+
+* What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
 general understanding.
 
 Emacspeak has two major parts:
-  1. Elisp code that runs inside Emacs
-  2. A server process that runs does the Text-To-Speech (TTS)
+1. Elisp code that runs inside Emacs
+2. A server process that runs does the Text-To-Speech (TTS)
 
 The Elisp code in emacs will launch and communicate with the server process over
 STDIN.
 
-Below you will find the steps to install Emacspeak with platform specific notes
-and warnings in each section. 
+* Installl
+Each section is complete, meaning if you are using Linux Mint, you only have to
+look under the Linux Mint heading.
 
-** Prerequisites
-    1. Emacs
-    2. Git
-    3. Make
-    4. Bash Shell (or compatible)
+** OS: Linux Mint / Server: eSpeak
+Looking for Contributor 
 
+** OS: Ubuntu 24.04 / Server: DTK
+Looking for Contributor 
 
-** Get Emacspeak
-    1. Open Bash Terminal
-    2. Switch to directory you want emacspeak to be in
-    3. =git clone https://github.com/tvraman/emacspeak=
+** OS: MacOS 14 / Server: Swiftmac
+1. Install Brew
+   1.1. go to: https://brew.sh/
+   1.2. follow instructionts to install
+2. Install Emacs-Plus
+   2.1. Open bash prompt
+   2.2. brew tap d12frosted/emacs-plus
+   2.3. brew install emacs-plus
+3. Install Git
+   3.1. brew install git
+4. Install Make
+   4.1. brew install make
+5. Get Emacspeak
+   5.1. Open Bash Terminal
+   5.2. Switch to directory you want emacspeak to be in
+   5.3. git clone https://github.com/tvraman/emacspeak
+7. Build Emacspeak
+   7.1. Switch to emacspeak directory
+   7.2. make config
+   7.3. make
+8. Build swiftmac
+   8.1. make swiftmac
+9. Test swiftmac
+   9.1. Switch to the servers directory under emacspeak
+   9.2. Run the server binary directly
+   9.3. Send the following lines by typing them
+        q this thing on?
+        d
+   9.4. You should hear "this thing on?"
+10. Configure emacs
+11. Test emacs
 
-** Build Emacspeak
-    1. Switch to emacspeak directory
-    2. =make config=
-    3. =make=
-
-** Pick Server
-Now, you have multiple options for your TTS server.
-
-*** Linux
-    1. dtk
-    2. espeak
-    3. outloud
-
-** MacOS
-    1. espeak
-    2. mac
-    3. swiftmac
-
-** Windows
-    1. espeak 
-    2. sharpwin
-
-** Build Server
-
-*** dtk
-*** espeak
-*** mac
-*** outloud
-*** sharpwin
-*** swiftmac
-
-** Test Server
-   1. Switch to the servers directory under emacspeak
-   2. Run the server binary directly
-   3. Send the following lines
-    - =q this thing on?=
-    - =d=
-
-** Configure Emacs
-
-** Test Emacs
-
-
-
-
-
-
-
-
- 3. Follow system specific guidance below.
-
-*** Linux
-**** Debian
-***** 12.x
- 1. Do the [[common][Common Steps]] above
-
-**** Ubuntu
-***** 22.04
- 1. Do the [[Common Steps]] above
-
-***** 24.04
- 1. Do the [[Common Steps]] above
-
-**** Fedora
-***** 40
- 1. Do the [[Common Steps]] above
-
-***** 39
-****** Espeak
- 1. Do the [[Common Steps]] above
-
-*** MacOS
-**** 14+
-***** Swiftmac Server
- 1. Do the [[Common Steps]] above
- 2. Install Swift 5.5+
- 3. From emacspeak directory run:
-    1. =make clean=
-    2. =make=
-    3. =make swiftmac=
-
-*** Windows
-**** 10/11
-    - Install [[https://git-scm.com/download/win][Git]]
-      - During install, install Git Bash
-      - Check the box to put in path
-    - Install GNU Make
-      
-** What Next?
-So, it is running, now what?
-
-*** Join the mailing list:
- - [[https://mail.emacspeak.net][List Website]]
-
-*** Read the manual:
- - [[info:emacspeak][emacspeak info (in emacs)]]
- - [[https://tvraman.github.io/emacspeak/manual/][online manual]]
- - [[https://tvraman.github.io/emacspeak/manual/emacspeak.pdf][pdf version]]
-
-*** Other resources:
- - [[https://emacspeak.blogspot.com/][Emacspeak Blog]]
- - [[https://tvraman.github.io/emacspeak/tips.html][Tips and Tricks]] (if you skip others, read this)
-
+** OS: Windows 11 / Server: Sharpwin
+1. Install Emacs
+2. Install [[https://git-scm.com/download/win][Git]]
+   2.1. During install, install Git Bash
+   2.2. Check the box to put in path
+3. Install [[https://gnuwin32.sourceforge.net/packages/make.htm][GNU Make]]
+4. Get Emacspeak
+   4.1. Open Bash Terminal
+   4.2. Switch to directory you want emacspeak to be in
+   4.3. git clone https://github.com/tvraman/emacspeak
+5. Build Emacspeak
+   5.1. Switch to emacspeak directory
+   5.2. make config
+   5.3. make
+6. Get Sharpwin
+   6.1. Open Bash Terminal
+   6.2.
