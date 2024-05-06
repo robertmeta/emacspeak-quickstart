@@ -1,21 +1,19 @@
 #+TITLE:     Installing Emacspeak
 #+AUTHOR:    Robert Melton
-#+LANGUAGE:  en
-#+TOC: headlines 2
 
 This guide's only intent is to get you from zero to functional emacspeak.
 
 No effort will be made to teach you how to use Emacspeak.
 
 - [[What you need to know]]
-- [[Linux Mint]]
-- [[Ubuntu]]
-- [[Debian]]
-- [[MacOS]]
-- [[Windows]]
-
-
-
+- [[Install Guides]]
+  - [[Debian 12]]
+  - [[Linux Mint 21]]
+  - [[Ubuntu 24.04]]
+  - [[MacOS 14]]
+  - [[Windows 11]]
+- [[What Now?]]
+  
 * What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
 general understanding.
@@ -27,30 +25,24 @@ Emacspeak has two major parts:
 The Elisp code in emacs will launch and communicate with the server process over
 STDIN.
 
-* Install
+* Install Guides
 Each section is complete, meaning if you are using Linux Mint, you only have to
 look under the Linux Mint heading.
  
-** Debian
-*** 12
-**** Outloud
+** Debian 12
+*** Outloud
 Looking for Contributor
 
-** Linux Mint
-*** 21
-**** eSpeak
-Looking for Contributor
-
-** Ubuntu
-*** 24.04
-**** DTK
-Looking for Contributor
+** Linux Mint 21
 *** eSpeak
 Looking for Contributor
 
-** MacOS
-*** 14
-**** Swiftmac
+** Ubuntu 24.04
+*** DTK
+Looking for Contributor
+
+** MacOS 14
+*** Swiftmac
 1. Install Brew
     1. go to: https://brew.sh/
     2. follow instructionts to install
@@ -83,9 +75,8 @@ Looking for Contributor
 10. Configure emacs
 11. Test emacs
 
-** Windows
-*** 11
-**** Sharpwin
+** Windows 11
+*** Sharpwin
 1. Install Emacs
 2. Install [[https://git-scm.com/download/win][Git]]
     1. During install, install Git Bash
@@ -101,3 +92,16 @@ Looking for Contributor
     3. make
 6. Get Sharpwin
     1. Open Bash Terminal
+
+* What Now?
+
+- Join the mailing list:
+    - [[https://mail.emacspeak.net][List Website]]
+- Read the manual:
+    - [[info:emacspeak][emacspeak info (in emacs)]]
+    - [[https://tvraman.github.io/emacspeak/manual/][online manual]]
+    - [[https://tvraman.github.io/emacspeak/manual/emacspeak.pdf][pdf version]]
+- Other resources:
+    - [[https://emacspeak.blogspot.com/][Emacspeak Blog]]
+    - [[https://tvraman.github.io/emacspeak/tips.html][Tips and Tricks]] (if you skip others, read this)
+
