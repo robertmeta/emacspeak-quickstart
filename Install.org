@@ -66,17 +66,16 @@ Looking for Contributor
 ** OS: Windows 11 / Server: Sharpwin
 1. Install Emacs
 2. Install [[https://git-scm.com/download/win][Git]]
-   2.1. During install, install Git Bash
-   2.2. Check the box to put in path
+    1. During install, install Git Bash
+    2. Check the box to put in path
 3. Install [[https://gnuwin32.sourceforge.net/packages/make.htm][GNU Make]]
 4. Get Emacspeak
-   4.1. Open Bash Terminal
-   4.2. Switch to directory you want emacspeak to be in
-   4.3. git clone https://github.com/tvraman/emacspeak
+    1. Open Bash Terminal
+    2. Switch to directory you want emacspeak to be in
+    3. git clone https://github.com/tvraman/emacspeak
 5. Build Emacspeak
-   5.1. Switch to emacspeak directory
-   5.2. make config
-   5.3. make
+    1. Switch to emacspeak directory
+    2. make config
+    3. make
 6. Get Sharpwin
-   6.1. Open Bash Terminal
-   6.2.
+    1. Open Bash Terminal
