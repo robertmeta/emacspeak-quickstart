@@ -26,12 +26,12 @@ Looking for Contributor
 
 ** OS: MacOS 14 / Server: Swiftmac
 1. Install Brew
-   1.1. go to: https://brew.sh/
-   1.2. follow instructionts to install
+   a. go to: https://brew.sh/
+   b. follow instructionts to install
 2. Install Emacs-Plus
-   2.1. Open bash prompt
-   2.2. brew tap d12frosted/emacs-plus
-   2.3. brew install emacs-plus
+   a. Open bash prompt
+   b. brew tap d12frosted/emacs-plus
+   c. brew install emacs-plus
 3. Install Git
    3.1. brew install git
 4. Install Make
