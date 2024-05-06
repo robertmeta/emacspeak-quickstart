@@ -8,10 +8,10 @@ This guide's only intent is to get you from zero to functional emacspeak.
 No effort will be made to teach you how to use Emacspeak.
 
 - [[What you need to know]]
-- Install: [[OS: Linux Mint / Server: eSpeak]]
-- Install: [[OS: MacOS 14 / Server: Swiftmac]]
-- Install: [[OS: Ubuntu 24.04 / Server: DTK]]
-- Install: [[OS: Windows 11 / Server: Sharpwin]]
+- [[OS: Linux Mint / Server: eSpeak]]
+- [[OS: MacOS 14 / Server: Swiftmac]]
+- [[OS: Ubuntu 24.04 / Server: DTK]]
+- [[OS: Windows 11 / Server: Sharpwin]]
 
 
 
