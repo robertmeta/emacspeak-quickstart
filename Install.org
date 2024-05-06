@@ -1,11 +1,9 @@
-#+TITLE:     Installing Emacspeak
-#+AUTHOR:    Robert Melton
-#+LANGUAGE:  en
-#+OPTIONS:   H:4 num:nil toc:2 p:t
+#+TITLE: Installing Emacspeak #+AUTHOR: Robert Melton #+LANGUAGE: en #+OPTIONS:
+H:4 num:nil toc:2 p:t
 
 This guide's only intent is to get you from zero to functional emacspeak.
 
-No effort will be made to teach you how to use Emacspeak. 
+No effort will be made to teach you how to use Emacspeak.
 
 * What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
@@ -21,16 +19,12 @@ STDIN.
 * Install
 Each section is complete, meaning if you are using Linux Mint, you only have to
 look under the Linux Mint heading.
-
-:test:
-wtf
-:end:
-
+ 
 ** OS: Linux Mint / Server: eSpeak
-Looking for Contributor 
+Looking for Contributor
 
 ** OS: Ubuntu 24.04 / Server: DTK
-Looking for Contributor 
+Looking for Contributor
 
 ** OS: MacOS 14 / Server: Swiftmac
 1. Install Brew
@@ -58,9 +52,8 @@ Looking for Contributor
     1. Switch to the servers directory under emacspeak
     2. Run the server binary directly
     3. Send the following lines by typing them
-       #+BEGIN_SRC 
-        q this thing on?
-        d
+       #+BEGIN_SRC
+        q this thing on?  d
        #+END_SRC
     4. You should hear "this thing on?"
 10. Configure emacs
