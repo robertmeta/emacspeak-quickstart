@@ -8,10 +8,13 @@ This guide's only intent is to get you from zero to functional emacspeak.
 No effort will be made to teach you how to use Emacspeak.
 
 - [[What you need to know]]
-- [[OS: Linux Mint / Server: eSpeak]]
-- [[OS: MacOS 14 / Server: Swiftmac]]
-- [[OS: Ubuntu 24.04 / Server: DTK]]
-- [[OS: Windows 11 / Server: Sharpwin]]
+- [[Linux Mint]]
+- [[Ubuntu]]
+- [[Debian]]
+- [[MacOS]]
+- [[Windows]]
+
+
 
 * What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
@@ -28,13 +31,26 @@ STDIN.
 Each section is complete, meaning if you are using Linux Mint, you only have to
 look under the Linux Mint heading.
  
-** OS: Linux Mint / Server: eSpeak
+** Debian
+*** 12
+**** Outloud
 Looking for Contributor
 
-** OS: Ubuntu 24.04 / Server: DTK
+** Linux Mint
+*** 21
+**** eSpeak
 Looking for Contributor
 
-** OS: MacOS 14 / Server: Swiftmac
+** Ubuntu
+*** 24.04
+**** DTK
+Looking for Contributor
+*** eSpeak
+Looking for Contributor
+
+** MacOS
+*** 14
+**** Swiftmac
 1. Install Brew
     1. go to: https://brew.sh/
     2. follow instructionts to install
@@ -67,7 +83,9 @@ Looking for Contributor
 10. Configure emacs
 11. Test emacs
 
-** OS: Windows 11 / Server: Sharpwin
+** Windows
+*** 11
+**** Sharpwin
 1. Install Emacs
 2. Install [[https://git-scm.com/download/win][Git]]
     1. During install, install Git Bash
