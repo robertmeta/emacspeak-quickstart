@@ -3,9 +3,6 @@
 #+LANGUAGE:  en
 #+OPTIONS:   H:4 num:nil toc:2 p:t
 
-A quickstart / install document for Emacspeak
-
-* Installing Emacspeak
 This guide's only intent is to get you from zero to functional emacspeak.
 
 No effort will be made to teach you how to use Emacspeak. 
