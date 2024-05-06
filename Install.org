@@ -5,15 +5,6 @@ This guide's only intent is to get you from zero to functional emacspeak.
 
 No effort will be made to teach you how to use Emacspeak.
 
-- [[What you need to know]]
-- [[Install Guides]]
-  - [[Debian 12]]
-  - [[Linux Mint 21]]
-  - [[Ubuntu 24.04]]
-  - [[MacOS 14]]
-  - [[Windows 11]]
-- [[What Now?]]
-  
 * What you need to know
 This is a vast simplification, just enough to help you debug issues and have a
 general understanding.
