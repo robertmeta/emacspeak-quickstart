@@ -1,13 +1,7 @@
-#+TITLE:     Install Emacspeak
+#+TITLE:     Installing Emacspeak
 #+AUTHOR:    Robert Melton
 
-
-My document provides...
-
-1. a
- 2. aa
-1. b
- 2. bb
+A quickstart / install document for Emacspeak
 
 * Installing Emacspeak
 This guide's only intent is to get you from zero to functional emacspeak.
@@ -19,8 +13,8 @@ This is a vast simplification, just enough to help you debug issues and have a
 general understanding.
 
 Emacspeak has two major parts:
-1. Elisp code that runs inside Emacs
-2. A server process that runs does the Text-To-Speech (TTS)
+    1. Elisp code that runs inside Emacs
+    2. A server process that runs does the Text-To-Speech (TTS)
 
 The Elisp code in emacs will launch and communicate with the server process over
 STDIN.
@@ -37,34 +31,35 @@ Looking for Contributor
 
 ** OS: MacOS 14 / Server: Swiftmac
 1. Install Brew
-    A. go to: https://brew.sh/
-    B. follow instructionts to install
+    1. go to: https://brew.sh/
+    2. follow instructionts to install
 2. Install Emacs-Plus
-
-   A. Open bash prompt
-   B. brew tap d12frosted/emacs-plus
-   C. brew install emacs-plus
+    1. Open bash prompt
+    2. brew tap d12frosted/emacs-plus
+    3. brew install emacs-plus
 3. Install Git
-   3.1. brew install git
+    1. brew install git
 4. Install Make
-   4.1. brew install make
+    1. brew install make
 5. Get Emacspeak
-   5.1. Open Bash Terminal
-   5.2. Switch to directory you want emacspeak to be in
-   5.3. git clone https://github.com/tvraman/emacspeak
+    1. Open Bash Terminal
+    2. Switch to directory you want emacspeak to be in
+    3. git clone https://github.com/tvraman/emacspeak
 7. Build Emacspeak
-   7.1. Switch to emacspeak directory
-   7.2. make config
-   7.3. make
+    1. Switch to emacspeak directory
+    2. make config
+    3. make
 8. Build swiftmac
-   8.1. make swiftmac
+    1. make swiftmac
 9. Test swiftmac
-   9.1. Switch to the servers directory under emacspeak
-   9.2. Run the server binary directly
-   9.3. Send the following lines by typing them
+    1. Switch to the servers directory under emacspeak
+    2. Run the server binary directly
+    3. Send the following lines by typing them
+       #+BEGIN_SRC 
         q this thing on?
         d
-   9.4. You should hear "this thing on?"
+       #+END_SRC
+    4. You should hear "this thing on?"
 10. Configure emacs
 11. Test emacs
 
