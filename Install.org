@@ -75,7 +75,7 @@ Looking for Contributor
     3. git clone https://github.com/tvraman/emacspeak
 5. Build Emacspeak
     1. Switch to emacspeak directory
-    2. make config
+    2. ~make config~
     3. make
 6. Get Sharpwin
     1. Open Bash Terminal
