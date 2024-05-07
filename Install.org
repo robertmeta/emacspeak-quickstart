@@ -33,7 +33,7 @@ Looking for Contributor
 Looking for Contributor
 
 ** MacOS 14
-*** Swiftmac
+_Swiftmac_
 1. Install Brew
     1. go to: https://brew.sh/
     2. follow instructionts to install
@@ -60,14 +60,15 @@ Looking for Contributor
     2. Run the server binary directly
     3. Send the following lines by typing them
        #+BEGIN_SRC
-        q this thing on?  d
+        q this thing on?
+        d
        #+END_SRC
     4. You should hear "this thing on?"
 10. Configure emacs
 11. Test emacs
 
 ** Windows 11
-*** Sharpwin
+_Sharpwin_
 1. Install Emacs
 2. Install [[https://git-scm.com/download/win][Git]]
     1. During install, install Git Bash
