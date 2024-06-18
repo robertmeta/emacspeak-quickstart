@@ -65,13 +65,14 @@ Looking for Contributor
     1. make swiftmac
 9. Test swiftmac
     1. Switch to the servers directory under emacspeak
-    2. Run the server binary directly
+    2. Run the server binary directly, to do this type ./swiftmac in the terminal
     3. Send the following lines by typing them
        #+BEGIN_SRC
         q this thing on?
         d
        #+END_SRC
     4. You should hear "this thing on?"
+    5. exit by hitting Control-D or Control-C
 10. Configure emacs
     1. Open up your ~/.emacs.d/init.el file in a working text editor (until we
        finish setting up emacs)
